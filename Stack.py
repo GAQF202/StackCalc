@@ -18,6 +18,12 @@ class Stack(object):
             return True
         else:
             return False
+
+    def get_Size(self):
+        return len(self.items)
+
+    def get_element(self,x):
+        return self.items[x]
     
     def get_elements(self):
 
@@ -25,3 +31,6 @@ class Stack(object):
             return None
         else:
             return self.items
+    
+    def destroyer(self,index):
+        self.items.pop(index)

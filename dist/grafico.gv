@@ -1,0 +1,14 @@
+digraph grafico {
+	rankdir=TB size=8
+	bgcolor="blue:cyan" fontcolor=white
+	node [shape=plaintext]
+	"p-1" [label=<<table><tr><td>4</td></tr></table>>]
+	"p-1" [label=<<table><tr><td>5</td></tr><tr><td>4</td></tr></table>>]
+	p0 [label=<<table><tr><td>9.0</td></tr></table>>]
+	p0 [label=<<table><tr><td>8</td></tr><tr><td>9.0</td></tr></table>>]
+	p1 [label=<<table><tr><td>72.0</td></tr></table>>]
+	p1 [label=<<table><tr><td>24.0</td></tr><tr><td>72.0</td></tr></table>>]
+	p2 [label=<<table><tr><td>96.0</td></tr></table>>]
+	p2 [label=<<table><tr><td>5</td></tr><tr><td>96.0</td></tr></table>>]
+	p3 [label=<<table><tr><td>91.0</td></tr></table>>]
+}
